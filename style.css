@@ -1,0 +1,209 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+
+  background-color: rgb(181, 142, 57);
+  min-height: 100vh;
+  z-index: -10;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  /* background: rgba(290, 190,250, 0.999); */
+
+
+}
+
+.Container>h1 {
+  text-align: center;
+  margin: 25px 0 20px 0;
+  font-size: 45px;
+  font-family: Cambria Math;
+  color: dodgerblue;
+  color: white;
+
+}
+
+.registration {
+  display: inline;
+  flex-direction: column;
+  margin: 40px 10px;
+  padding: 10px;
+
+}
+
+
+.registration>div>input {
+  padding: 10px;
+  font-size: 15px;
+
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin: 10px 0px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+
+}
+
+.registration>div>label {
+  font-size: 19px;
+  font-family: Korean;
+  color: seashell;
+
+}
+
+.custom-file-input::before {
+  display: inline-block;
+  background: rgb(253, 15, 15);
+  border-radius: 8px;
+  padding: 12px;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  width: 50%;
+
+}
+
+.gender,
+.skills {
+  display: flex;
+  align-items: center;
+  margin: 10px 0px;
+  cursor: pointer;
+
+}
+
+p {
+  margin-right: 10px;
+}
+
+input[type=radio],
+input[ type=checkbox] {
+  transform: scale(1.3);
+  margin: 10px 10px;
+}
+
+input[type=text],
+input[type=email] {
+  background-color: rgb(255, 255, 255);
+  border: 2px solid red;
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  font-weight: bold;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.skills>label,
+.gender>label {
+  padding: 0px 10px;
+}
+
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 10px;
+  font-size: 18px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+
+  background-color: rgb(62, 61, 63);
+  border: none;
+  border-radius: 10px;
+  margin-right: 10px;
+  /* box-shadow: 0 9px rgb(70, 55, 55); */
+}
+
+.button:hover {
+  background-color: red;
+}
+
+.button:active {
+  background-color: #50af53;
+  /* box-shadow: 0 5px #666; */
+  transform: translateY(4px);
+}
+
+.main {
+  display: flex;
+}
+
+.left {
+  width: 40%;
+}
+
+
+
+.box {
+  /* background-color:darkgray;  */
+
+  margin-left: 25px;
+  padding-left: 28px;
+  border: 3px solid red;
+  border-radius: 12px;
+  width: 45%;
+  background-color: #567c5e;;
+}
+
+.right {
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+  /* width: 50%; */
+  color: rgb(253, 253, 253);
+  font-size: large;
+  font-family: korean;
+  margin-right: 45px;
+
+}
+
+.Enrolled {
+
+  margin-top: 1.5rem;
+  margin-left: 15px;
+  color: rgb(255, 255, 255);
+}
+
+.card {
+  display: flex;
+  text-align: justify;
+  margin: 0.5rem;
+  margin-left: 45px;
+  border: 2px solid rgb(206, 42, 42);
+  padding: 20px 30px;
+  /* background-color: aliceblue; */
+}
+
+.image>img {
+  width: 170px;
+  margin: 10px;
+}
+
+.title {
+  font-size: 15px;
+  margin: 7px;
+}
+
+.text {
+  margin: 10px;
+}
+
+.card-body {
+  width: 200px;
+}
